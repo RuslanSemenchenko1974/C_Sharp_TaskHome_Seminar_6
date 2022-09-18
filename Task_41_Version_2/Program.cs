@@ -17,7 +17,7 @@ int strLength=quantity.Length;
 string namber=String.Empty;
 char ifWhitespace=Convert.ToChar(" ");
 int count=0;
-double[] arrayOfNumber=new double[strLength/2];
+double[] arrayOfNumber=new double[strLength/2+2];
 for(int i=0;i<strLength; i++) 
     {
         if (quantity[i]==ifWhitespace)
